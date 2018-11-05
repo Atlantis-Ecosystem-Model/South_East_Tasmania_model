@@ -2,7 +2,7 @@
 #
 # Hydrodynamic files - this is for 1991 to 1994, but 1991 and 1992 are
 # faked from 1993 data.
-# input directories
+# input directories  
 nhdfiles 5
 hd0.name inputs/forcisets/SETAS_VMPAhydroA.nc
 hd1.name inputs/forcisets/SETAS_VMPAhydroB.nc
@@ -13,6 +13,8 @@ hd4.name inputs/forcisets/SETAS_VMPAhydroE.nc
 # Bottom stress
 # BottomStress inputs/stress/stress.nc
 # BottomStress inputs/stress/nxstress.nc
+
+use_VertMixFiles 0  ###*** New parameter 2018
 
 #############################################
 # Point source\sink lists
@@ -29,22 +31,20 @@ Solar_radiation_rewind 1
 
 # Temperature time series data file
 use_tempfiles 1
-# The number of temperature input files
-ntempfiles 1
+# The number of temperature input files 
+ntempfiles 1 
 Temperature0.name inputs/forcisets/SETAS_VMPAtemp.nc
 temp_rewind 1
 
 # Salinity time series data file
 use_saltfiles 1
-# The number of salinity files
-nsaltfiles 1
+# The number of salinity files 
+nsaltfiles 1 
 Salinity0.name inputs/forcisets/SETAS_VMPAsalt.nc
 salt_rewind 1
 
 ts_on_hydro_time 1
 inputs_tout 10 day
-
-use_VertMixFiles 0
 
 # Recruitment_time_series
 
@@ -139,7 +139,7 @@ use_phFiles 0
 
 use_force_tracers 0
 
-# The number of tracers to search for in the files and the names of those tracers.
+# The number of tracers to search for in the files and the names of those tracers. 
 nforceTracers 1
 tracerNames 1
 Arsenic
@@ -154,3 +154,5 @@ Arsenic_rewind 0
 
 # Frequency of inputs.ts and exports.ts output.
 inputs_tout 43200 seconds
+
+

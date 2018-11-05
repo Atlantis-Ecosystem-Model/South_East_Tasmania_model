@@ -13929,3 +13929,71 @@ mowMAsel_ampli      0.0
 
 
 flagSimpleStartStopMPAs 0
+
+
+### ** New 2018
+midwcCEP_flag_framebased 0.0
+
+jigCEP_flag_framebased 0.0
+
+midwcFP_flag_framebased 0.0
+
+dredgeBFS_flag_framebased 0.0
+
+netFD_flag_framebased 0.0
+
+netSH_flag_framebased 0.0
+
+plineFVO_flag_framebased 0.0
+
+pseineFVO_flag_framebased 0.0
+
+pseineFP_flag_framebased 0.0
+
+trapBMS_flag_framebased 0.0
+
+trapFD_flag_framebased 0.0
+
+dtrawlBMS_flag_framebased 0.0
+
+dtrawlCEP_flag_framebased 0.0
+
+dtrawlFD_flag_framebased 0.0
+
+dtrawlFDB_flag_framebased 0.0
+
+dtrawlFDO_flag_framebased 0.0
+
+midwcFD_flag_framebased 0.0
+
+dseineFDB_flag_framebased 0.0
+
+dlineFD_flag_framebased 0.0
+
+dlineFVS_flag_framebased 0.0
+
+dlineSH_flag_framebased 0.0
+
+diveBG_flag_framebased 0.0
+
+pseineFVS_flag_framebased 0.0
+
+cullPIN_flag_framebased 0.0
+
+recfish_flag_framebased 0.0
+
+ptrawlPWN_flag_framebased 0.0
+
+dtrawlFBP_flag_framebased 0.0
+
+midwcZL_flag_framebased 0.0
+
+trapFDE_flag_framebased 0.0
+
+dlineFDE_flag_framebased 0.0
+
+netFDE_flag_framebased 0.0
+
+midwcPWN_flag_framebased 0.0
+
+mowMA_flag_framebased 0.0
