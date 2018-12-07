@@ -32,7 +32,7 @@
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="OutputOptions" AttributeDescription="Model Output Settings">
     <Attribute AttributeName="toutstart" AttributeDescription="Output start day" AttributeValue="0 day" AttributeType="Float" AttributeRecommendedValue="0"/>
-    <Attribute AttributeName="toutinc" AttributeDescription="Write output with this periodicity" AttributeValue="1 day" AttributeType="Float" AttributeRecommendedValue="0"/>
+    <Attribute AttributeName="toutinc" AttributeDescription="Write output with this periodicity" AttributeValue="10 day" AttributeType="Float" AttributeRecommendedValue="0"/>
     <Attribute AttributeName="toutfinc" AttributeDescription="Write fisheries output with this periodicity" AttributeValue="1 day" AttributeType="Float" AttributeRecommendedValue="0"/>
     <Attribute AttributeName="tburnday" AttributeDescription="Day of run where burn-in conditions relaxed" AttributeValue="0 day" AttributeType="Float" AttributeRecommendedValue="0"/>
     <Attribute AttributeName="tsumout" AttributeDescription="Write stock state summary with this periodicity" AttributeValue="1 day" AttributeType="Float" AttributeRecommendedValue="0"/>
