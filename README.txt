@@ -1,4 +1,5 @@
 This folder contains input files needed to run example SE Tasmanian Atlantis ecosystem model.
+The Atlantis version 6411 (Mon, 26 Nov 2018) was used to run this model.
 For more details about the model see https://github.com/Atlantis-Ecosystem-Model/Atlantis_example_and_instructions
 
 The example files provided here will run the simulation for 365 days. This takes about 1-2 minutes on a standard laptop computer.
