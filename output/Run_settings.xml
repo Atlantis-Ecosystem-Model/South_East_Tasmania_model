@@ -10,7 +10,7 @@
   <AttributeSubGroup AttributeGroupName="ScenarioOptions" AttributeDescription="The diagnostic output settings">
     <Attribute AttributeName="title" AttributeDescription="ScenarioName" AttributeValue="SE" AttributeType="String" AttributeRecommendedValue=""/>
     <Attribute AttributeName="dt" AttributeDescription="Model Time Step in hours" AttributeUnits="Hours" AttributeValue="12 hour" AttributeType="Integer" AttributeRecommendedValue="12"/>
-    <Attribute AttributeName="tstop" AttributeDescription="Stop model after the given number of days" AttributeValue="365 day" AttributeType="Integer" AttributeRecommendedValue="0"/>
+    <Attribute AttributeName="tstop" AttributeDescription="Stop model after the given number of days" AttributeValue="1825 day" AttributeType="Integer" AttributeRecommendedValue="0"/>
     <Attribute AttributeName="flagIsEstuary" AttributeDescription="Flag indicating model is an estuary." AttributeValue="0" AttributeType="Boolean" AttributeRecommendedValue="0"/>
     <Attribute AttributeName="flagAllowLand" AttributeDescription="Flag indicating model can include land." AttributeValue="0" AttributeType="Boolean" AttributeRecommendedValue="0"/>
     <Attribute AttributeName="flagpassivetracer" AttributeDescription="Flag indicating want a passive tracer to track to check transports" AttributeValue="0" AttributeType="Boolean" AttributeRecommendedValue="0"/>
@@ -32,10 +32,10 @@
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="OutputOptions" AttributeDescription="Model Output Settings">
     <Attribute AttributeName="toutstart" AttributeDescription="Output start day" AttributeValue="0 day" AttributeType="Float" AttributeRecommendedValue="0"/>
-    <Attribute AttributeName="toutinc" AttributeDescription="Write output with this periodicity" AttributeValue="10 day" AttributeType="Float" AttributeRecommendedValue="0"/>
-    <Attribute AttributeName="toutfinc" AttributeDescription="Write fisheries output with this periodicity" AttributeValue="1 day" AttributeType="Float" AttributeRecommendedValue="0"/>
+    <Attribute AttributeName="toutinc" AttributeDescription="Write output with this periodicity" AttributeValue="30 day" AttributeType="Float" AttributeRecommendedValue="0"/>
+    <Attribute AttributeName="toutfinc" AttributeDescription="Write fisheries output with this periodicity" AttributeValue="30 day" AttributeType="Float" AttributeRecommendedValue="0"/>
     <Attribute AttributeName="tburnday" AttributeDescription="Day of run where burn-in conditions relaxed" AttributeValue="0 day" AttributeType="Float" AttributeRecommendedValue="0"/>
-    <Attribute AttributeName="tsumout" AttributeDescription="Write stock state summary with this periodicity" AttributeValue="1 day" AttributeType="Float" AttributeRecommendedValue="0"/>
+    <Attribute AttributeName="tsumout" AttributeDescription="Write stock state summary with this periodicity" AttributeValue="30 day" AttributeType="Float" AttributeRecommendedValue="0"/>
     <Attribute AttributeName="fishout" AttributeDescription="Switch to turn fisheries output on = 1, off = 0" AttributeValue="1" AttributeType="Boolean" AttributeRecommendedValue="0"/>
     <Attribute AttributeName="flag_age_output" AttributeDescription="Age structured outputt on = 1, off = 0" AttributeValue="1" AttributeType="Boolean" AttributeRecommendedValue="0"/>
     <Attribute AttributeName="flagreusefile" AttributeDescription="Switch to show want to append output file no = 0, yes = 1, replace = 2" AttributeValue="2" AttributeType="Lookup" AttributeRecommendedValue="0">

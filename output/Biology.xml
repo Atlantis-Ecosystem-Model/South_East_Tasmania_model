@@ -72,6 +72,8 @@
       <GroupValue GroupName="BFS" AttributeValue="1"/>
       <GroupValue GroupName="BFF" AttributeValue="1"/>
       <GroupValue GroupName="BC" AttributeValue="0"/>
+      <GroupValue GroupName="MA" AttributeValue="0"/>
+      <GroupValue GroupName="SG" AttributeValue="0"/>
     </Attribute>
     <Attribute AttributeName="Flux_Threshhold" AttributeDescription="Threshold sed bacteria flux level where damping starts" AttributeUnits="mg N m-2 s-1" AttributeType="Float" AttributeRecommendedValue="0.1">
       <GroupValue GroupName="BB" AttributeValue="10"/>
