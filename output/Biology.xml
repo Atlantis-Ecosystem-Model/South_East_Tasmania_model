@@ -1870,8 +1870,8 @@
     </Attribute>
     <AttributeSubGroup AttributeGroupName="Catch_Opportunity" AttributeDescription="Availability of catch to opportunistic catch grazers (thieves)">
       <Attribute AttributeName="Catch_Availability" AttributeDescription="Availabilty of catch to opportunistic catch grazers (thieves)" AttributeType="FloatArray" ArrayLength="35">
-        <GroupValue GroupName="PIN" AttributeValue="0.9 0.35 0.35 0 0 0.001 0 0.01 0.01 0 0 0 0 0 0.4 0 0 0.4 0 0 0 0.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-        <GroupValue GroupName="WHT" AttributeValue="0 0 0 0.1 0.05 0.005 0 0.001 0.02 0 0 0 0 0 0 0 0 0 0.4 0 0 0 0 0.01 0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+        <GroupValue GroupName="PIN" AttributeValue="0 0.001 0 0.01 0.01 0 0 0 0 0 0.4 0 0 0.4 0 0 0 0.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+        <GroupValue GroupName="WHT" AttributeValue="0.05 0.005 0 0.001 0.02 0 0 0 0 0 0 0 0 0 0.4 0 0 0 0 0.01 0.01 0 0 0 0 0 0 0 0 0 0 0 0&#9;0 0"/>
       </Attribute>
       <Attribute AttributeName="Proportion_Exploitable" AttributeDescription="Proportion of the catch in each fishery that can be exploited by the isCatchGrazer groups. Will be read in for groups that have the isCatchGrazer set to 1 in the functional group input file." AttributeType="FloatArray" ArrayLength="33">
         <GroupValue GroupName="PIN" AttributeValue="0 0 0.2 0 0.1 0.1 0.9 0 0 0 0 0 0 0.2 0.2 0 0.2 0 0.9 0.9 0.9 0 0 0 0 0 0 0 0 0 0 0 0"/>

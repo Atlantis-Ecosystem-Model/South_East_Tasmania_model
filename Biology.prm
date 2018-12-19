@@ -3632,14 +3632,11 @@ pSTOCK_jWHT 1
 1
 #from f1
 # Availabilty of catch to opportunistic catch grazers (thieves). There should be an entry for each group that has 'IsCatchGrazer' set to true in the functional group definition file.
+pFCPIN	35
+0 0.001 0 0.01 0.01 0 0 0 0 0 0.4 0 0 0.4 0 0 0 0.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+pFCWHT 35
+0.05 0.005 0 0.001 0.02 0 0 0 0 0 0 0 0 0 0.4 0 0 0 0 0.01 0.01 0 0 0 0 0 0 0 0 0 0 0 0	0 0
 
-pFCPIN              62
-0.9 0.35 0.35 0 0 0.001 0 0.01 0.01 0 0 0 0 0 0.4 0 0 0.4 0 0 0 0.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-pFCWHT              62
-0 0 0 0.1 0.05 0.005 0 0.001 0.02 0 0 0 0 0 0 0 0 0 0.4 0 0 0 0 0.01 0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0.1 0.05 0.005 0 0.001 0.02 0 0 0 0 0 0 0 0 0 0.4 0 0 0 0 0.01 0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 # Proportion of the catch in each fishery that can be exploited by the isCatchGrazer groups. Will be read in for groups
 # that have the isCatchGrazer set to 1 in the functional group input file.
