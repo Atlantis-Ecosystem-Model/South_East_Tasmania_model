@@ -83,7 +83,7 @@ init_scalar       35
 
 trackAtomicRatio 0
 track_rugosity_arag 0  # flag indicating that rugosity and aragonite saturation to be tracked - needed for coral
-track_pH 0          1  # Flag indicating that want to track pH
+track_pH 0      # Flag indicating that want to track pH
 
 mirror_invalid 0
 track_contaminants 0

@@ -785,39 +785,39 @@
     </Attribute>
     <Attribute AttributeName="k_mismatch" AttributeDescription="Reduction in effectiveness of gear due to mismatch in watercolumn of gear and vertebrates" AttributeValue="0.25" AttributeType="Boolean" AttributeRecommendedValue="0.25"/>
     <Attribute AttributeName="FisheryTargetSpecies" AttributeDescription=" Identify chief target species for each fishery - when determining effort allocation, the expected CPUE of these species is used to select (or weight) potential fishing sites" AttributeType="BooleanArray" ArrayLength="35">
-      <FisheryValue FisheryName="midwcCEP" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="jigCEP" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="midwcFP" AttributeValue="1 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="dredgeBFS" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="netFD" AttributeValue="0 0 0 1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="netSH" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="plineFVO" AttributeValue="0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="pseineFVO" AttributeValue="0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="pseineFP" AttributeValue="1 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="trapBMS" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="trapFD" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="dtrawlBMS" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="dtrawlCEP" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="dtrawlFD" AttributeValue="0 1 0 1 1 0 0 0 1 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 1 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="dtrawlFDB" AttributeValue="0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="dtrawlFDO" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="midwcFD" AttributeValue="0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="dseineFDB" AttributeValue="0 1 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="dlineFD" AttributeValue="0 0 0 0 1 0 0 0 0 0 0 0 1 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="dlineFVS" AttributeValue="0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="dlineSH" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="diveBG" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="pseineFVS" AttributeValue="0 0 0 0 0 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="cullPIN" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="recfish" AttributeValue="1 1 1 0 0 1 1 1 1 0 0 1 0 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 0 0 0 0 0 0 1 1 1 0 1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="ptrawlPWN" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="dtrawlFBP" AttributeValue="1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="midwcZL" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="trapFDE" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="dlineFDE" AttributeValue="0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 1 0 1 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="netFDE" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="midwcPWN" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <FisheryValue FisheryName="mowMA" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="midwcCEP" AttributeValue="0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="jigCEP" AttributeValue="0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="midwcFP" AttributeValue="1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="dredgeBFS" AttributeValue="0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="netFD" AttributeValue="0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="netSH" AttributeValue="0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="plineFVO" AttributeValue="0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="pseineFVO" AttributeValue="0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="pseineFP" AttributeValue="1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="trapBMS" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="trapFD" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="dtrawlBMS" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="dtrawlCEP" AttributeValue="0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="dtrawlFD" AttributeValue="0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="dtrawlFDB" AttributeValue="0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="dtrawlFDO" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="midwcFD" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="dseineFDB" AttributeValue="0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="dlineFD" AttributeValue="0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="dlineFVS" AttributeValue="0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="dlineSH" AttributeValue="0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="diveBG" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="pseineFVS" AttributeValue="0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="cullPIN" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="recfish" AttributeValue="1 1 1 1 1 0 0 0 0 1 1 1 1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="ptrawlPWN" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="dtrawlFBP" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="midwcZL" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="trapFDE" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="dlineFDE" AttributeValue="0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="netFDE" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="midwcPWN" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <FisheryValue FisheryName="mowMA" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
     </Attribute>
     <Attribute AttributeName="CatchAgeDistributions" AttributeDescription="Catch by age distribution for conditioning time series of catch (if used)" AttributeType="FloatArray" ArrayLength="10">
       <GroupValue GroupName="FPS" AttributeValue="0 0 0.1 0.12 0.13 0.13 0.13 0.13 0.13 0.13"/>
@@ -861,40 +861,40 @@
     </Attribute>
     <Attribute AttributeName="qStock" AttributeDescription="Variable catchability per stock. Array length of each group is the number of stocks." AttributeType="FloatArray" ArrayLength="">
       <GroupValue GroupName="FPS">
-        <AgeClassValue AgeClassName="adult" AttributeValue="1.0 1.0 1.0 1.0"/>
-        <AgeClassValue AgeClassName="juv" AttributeValue="1.0 1.0 1.0 1.0"/>
+        <AgeClassValue AgeClassName="adult" AttributeValue="1.0"/>
+        <AgeClassValue AgeClassName="juv" AttributeValue="1.0"/>
       </GroupValue>
       <GroupValue GroupName="FVS">
-        <AgeClassValue AgeClassName="adult" AttributeValue="1.0 1.0 1.0 1.0"/>
-        <AgeClassValue AgeClassName="juv" AttributeValue="1.0 1.0 1.0 1.0"/>
+        <AgeClassValue AgeClassName="adult" AttributeValue="1.0"/>
+        <AgeClassValue AgeClassName="juv" AttributeValue="1.0"/>
       </GroupValue>
       <GroupValue GroupName="FVT">
-        <AgeClassValue AgeClassName="adult" AttributeValue="1.0 1.0 1.0 1.0"/>
-        <AgeClassValue AgeClassName="juv" AttributeValue="1.0 1.0 1.0 1.0"/>
+        <AgeClassValue AgeClassName="adult" AttributeValue="1.0"/>
+        <AgeClassValue AgeClassName="juv" AttributeValue="1.0"/>
       </GroupValue>
       <GroupValue GroupName="FDS">
-        <AgeClassValue AgeClassName="adult" AttributeValue="1.0 1.0 1.0 1.0"/>
-        <AgeClassValue AgeClassName="juv" AttributeValue="1.0 1.0 1.0 1.0"/>
+        <AgeClassValue AgeClassName="adult" AttributeValue="1.0"/>
+        <AgeClassValue AgeClassName="juv" AttributeValue="1.0"/>
       </GroupValue>
       <GroupValue GroupName="SHD">
-        <AgeClassValue AgeClassName="adult" AttributeValue="1.0 1.0 1.0 1.0"/>
-        <AgeClassValue AgeClassName="juv" AttributeValue="1.0 1.0 1.0 1.0"/>
+        <AgeClassValue AgeClassName="adult" AttributeValue="1.0"/>
+        <AgeClassValue AgeClassName="juv" AttributeValue="1.0"/>
       </GroupValue>
       <GroupValue GroupName="SB">
-        <AgeClassValue AgeClassName="adult" AttributeValue="1.0 1.0 1.0 1.0"/>
-        <AgeClassValue AgeClassName="juv" AttributeValue="1.0 1.0 1.0 1.0"/>
+        <AgeClassValue AgeClassName="adult" AttributeValue="1.0"/>
+        <AgeClassValue AgeClassName="juv" AttributeValue="1.0"/>
       </GroupValue>
       <GroupValue GroupName="PIN">
-        <AgeClassValue AgeClassName="adult" AttributeValue="1.0 1.0 1.0 1.0"/>
-        <AgeClassValue AgeClassName="juv" AttributeValue="1.0 1.0 1.0 1.0"/>
+        <AgeClassValue AgeClassName="adult" AttributeValue="1.0"/>
+        <AgeClassValue AgeClassName="juv" AttributeValue="1.0"/>
       </GroupValue>
       <GroupValue GroupName="WHB">
-        <AgeClassValue AgeClassName="adult" AttributeValue="1.0 1.0 1.0 1.0"/>
-        <AgeClassValue AgeClassName="juv" AttributeValue="1.0 1.0 1.0 1.0"/>
+        <AgeClassValue AgeClassName="adult" AttributeValue="1.0"/>
+        <AgeClassValue AgeClassName="juv" AttributeValue="1.0"/>
       </GroupValue>
       <GroupValue GroupName="WHT">
-        <AgeClassValue AgeClassName="adult" AttributeValue="1.0 1.0 1.0 1.0"/>
-        <AgeClassValue AgeClassName="juv" AttributeValue="1.0 1.0 1.0 1.0"/>
+        <AgeClassValue AgeClassName="adult" AttributeValue="1.0"/>
+        <AgeClassValue AgeClassName="juv" AttributeValue="1.0"/>
       </GroupValue>
     </Attribute>
   </AttributeSubGroup>
@@ -905,39 +905,39 @@
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="Fishery_Habitat" AttributeDescription="Fisheries habitat association">
     <Attribute AttributeName="FisheryHabitats" AttributeDescription="Vectors indicating which habitats each fishery can operate in. &#10;1 = in the habitat, 0 = excluded from the habitat. &#10;The list of habitats are the habitat groups in order of definition then reef, flat, soft, canyon" AttributeType="BooleanArray" ArrayLength="9">
-      <FisheryValue FisheryName="midwcCEP" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="jigCEP" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="midwcFP" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="dredgeBFS" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="netFD" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="netSH" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="plineFVO" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="pseineFVO" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="pseineFP" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="trapBMS" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="trapFD" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="dtrawlBMS" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="dtrawlCEP" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="dtrawlFD" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="dtrawlFDB" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="dtrawlFDO" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="midwcFD" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="dseineFDB" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="dlineFD" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="dlineFVS" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="dlineSH" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="diveBG" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="pseineFVS" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="cullPIN" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="recfish" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="ptrawlPWN" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="dtrawlFBP" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="midwcZL" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="trapFDE" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="dlineFDE" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="netFDE" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="midwcPWN" AttributeValue="1 1 1 1 1 1 1 1 1 1"/>
-      <FisheryValue FisheryName="mowMA" AttributeValue="0 0 0 1 0 0 1 1 1 0"/>
+      <FisheryValue FisheryName="midwcCEP" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="jigCEP" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="midwcFP" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="dredgeBFS" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="netFD" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="netSH" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="plineFVO" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="pseineFVO" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="pseineFP" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="trapBMS" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="trapFD" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="dtrawlBMS" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="dtrawlCEP" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="dtrawlFD" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="dtrawlFDB" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="dtrawlFDO" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="midwcFD" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="dseineFDB" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="dlineFD" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="dlineFVS" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="dlineSH" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="diveBG" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="pseineFVS" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="cullPIN" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="recfish" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="ptrawlPWN" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="dtrawlFBP" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="midwcZL" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="trapFDE" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="dlineFDE" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="netFDE" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="midwcPWN" AttributeValue="1 1 1 1 1 1 1 1 1"/>
+      <FisheryValue FisheryName="mowMA" AttributeValue="0 0 0 1 0 0 1 1 1"/>
     </Attribute>
     <Attribute AttributeName="MaxSeaFloorDepth" AttributeDescription="Maximum seafloor depths fishery will act over (so if won't fish deeper than 1500m put 1500 here)" AttributeUnits="m" AttributeType="Float" AttributeRecommendedValue="1 - 1805">
       <FisheryValue FisheryName="midwcCEP" AttributeValue="1805"/>
@@ -1848,30 +1848,30 @@
       <GroupValue GroupName="PWN" AttributeValue="0 0"/>
     </Attribute>
     <Attribute AttributeName="ProportionDiscarding" AttributeDescription="Proportional discarding of biomass of a species based on catch of another species (e.g. ratio of kg of FPS discarded for each kg of PWN landed" AttributeType="FloatArray" ArrayLength="35">
-      <GroupValue GroupName="FPS" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <GroupValue GroupName="FVS" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <GroupValue GroupName="FVT" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <GroupValue GroupName="FDS" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <GroupValue GroupName="SHD" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <GroupValue GroupName="SB" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <GroupValue GroupName="PIN" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <GroupValue GroupName="WHB" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <GroupValue GroupName="WHT" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <GroupValue GroupName="CEP" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <GroupValue GroupName="BFS" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <GroupValue GroupName="BFF" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <GroupValue GroupName="BG" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <GroupValue GroupName="BMD" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <GroupValue GroupName="BML" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <GroupValue GroupName="BMS" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <GroupValue GroupName="PWN" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <GroupValue GroupName="ZL" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <GroupValue GroupName="BD" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <GroupValue GroupName="MA" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <GroupValue GroupName="MB" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <GroupValue GroupName="SG" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <GroupValue GroupName="BC" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-      <GroupValue GroupName="ZG" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <GroupValue GroupName="FPS" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <GroupValue GroupName="FVS" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <GroupValue GroupName="FVT" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <GroupValue GroupName="FDS" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <GroupValue GroupName="SHD" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <GroupValue GroupName="SB" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <GroupValue GroupName="PIN" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <GroupValue GroupName="WHB" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <GroupValue GroupName="WHT" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <GroupValue GroupName="CEP" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <GroupValue GroupName="BFS" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <GroupValue GroupName="BFF" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <GroupValue GroupName="BG" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <GroupValue GroupName="BMD" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <GroupValue GroupName="BML" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <GroupValue GroupName="BMS" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <GroupValue GroupName="PWN" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <GroupValue GroupName="ZL" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <GroupValue GroupName="BD" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <GroupValue GroupName="MA" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <GroupValue GroupName="MB" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <GroupValue GroupName="SG" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <GroupValue GroupName="BC" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <GroupValue GroupName="ZG" AttributeValue="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
     </Attribute>
     <Attribute AttributeName="FixedDiscardProportion" AttributeDescription="Fixed proportion of the catch discarded for each group." AttributeType="FloatArray" ArrayLength="33">
       <GroupValue GroupName="FPS" AttributeValue="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"/>
@@ -1975,21 +1975,21 @@
         <GroupValue GroupName="PIN" AttributeValue="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"/>
         <GroupValue GroupName="WHB" AttributeValue="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"/>
         <GroupValue GroupName="WHT" AttributeValue="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"/>
-        <GroupValue GroupName="CEP" AttributeValue="0.0"/>
-        <GroupValue GroupName="BFS" AttributeValue="0.0"/>
-        <GroupValue GroupName="BFF" AttributeValue="0.0"/>
-        <GroupValue GroupName="BG" AttributeValue="0.0"/>
-        <GroupValue GroupName="BMD" AttributeValue="0.0"/>
-        <GroupValue GroupName="BML" AttributeValue="0.0"/>
-        <GroupValue GroupName="BMS" AttributeValue="0.0"/>
-        <GroupValue GroupName="PWN" AttributeValue="0.0"/>
-        <GroupValue GroupName="ZL" AttributeValue="0.0"/>
-        <GroupValue GroupName="BD" AttributeValue="0.0"/>
-        <GroupValue GroupName="MA" AttributeValue="0.0"/>
-        <GroupValue GroupName="MB" AttributeValue="0.0"/>
-        <GroupValue GroupName="SG" AttributeValue="0.0"/>
-        <GroupValue GroupName="BC" AttributeValue="0.0"/>
-        <GroupValue GroupName="ZG" AttributeValue="0.0"/>
+        <GroupValue GroupName="CEP" AttributeValue="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"/>
+        <GroupValue GroupName="BFS" AttributeValue="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"/>
+        <GroupValue GroupName="BFF" AttributeValue="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"/>
+        <GroupValue GroupName="BG" AttributeValue="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"/>
+        <GroupValue GroupName="BMD" AttributeValue="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"/>
+        <GroupValue GroupName="BML" AttributeValue="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"/>
+        <GroupValue GroupName="BMS" AttributeValue="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"/>
+        <GroupValue GroupName="PWN" AttributeValue="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"/>
+        <GroupValue GroupName="ZL" AttributeValue="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"/>
+        <GroupValue GroupName="BD" AttributeValue="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"/>
+        <GroupValue GroupName="MA" AttributeValue="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"/>
+        <GroupValue GroupName="MB" AttributeValue="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"/>
+        <GroupValue GroupName="SG" AttributeValue="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"/>
+        <GroupValue GroupName="BC" AttributeValue="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"/>
+        <GroupValue GroupName="ZG" AttributeValue="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"/>
       </Attribute>
       <Attribute AttributeName="ProportionRetained" AttributeDescription="Proportion of the undersize that are retained (illegally)" AttributeType="FloatArray" ArrayLength="33">
         <GroupValue GroupName="FPS" AttributeValue="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"/>

@@ -19,7 +19,7 @@
 # Baleen whales                   WHB   special
 # Toothed whales                  WHT   special
 # Cephalopods                     CEP   mg N m-3
-# Gelatinous zooplankton          ZG    mg N m-3  
+# Gelatinous zooplankton          ZG    mg N m-3
 # Large carnivorous zooplankton   ZL    mg N m-3
 # Mesozooplankton                 ZM    mg N m-3
 # Small zooplankton               ZS    mg N m-3
@@ -42,8 +42,8 @@
 # Biogenic silica                 DSi   mg Si m-3
 # Dissolved oxygen                O2    mg O m-3
 # Light                           IRR   W m-2
-# 
-# 
+#
+#
 ## For reference, the following are the codenames for each fishery. These are defined in the fishery definition input file.
 # Description                   Symbol
 # midwater trawl on cephalopods   midwcCEP
@@ -79,20 +79,20 @@
 # midwater trawl on prawns        midwcPWN
 # mowing of kelp                  mowMA
 # recreational fisheries          recfish
-# 
+#
 #
 ## For reference, the following are the links between the groups and the fisheries
 # Group   Fishery     Status
-#         seineFP     Target 
+#         seineFP     Target
 #         recfish         Target
 #         dtrawlFSF   Bycatch
-#         dseineFSF   Bycatch 
-# FPS     midwcFP     Target 
-#         pseineFP    Target 
-#         recfish         Target         
-#         dtrawlBMS   Bycatch 
-#         midwcFD     Target 
-#         dlineFD     Target 
+#         dseineFSF   Bycatch
+# FPS     midwcFP     Target
+#         pseineFP    Target
+#         recfish         Target
+#         dtrawlBMS   Bycatch
+#         midwcFD     Target
+#         dlineFD     Target
 # FVS     dlineFVS    Target
 #         pseineFST   Target
 #         recfish         Target
@@ -149,7 +149,7 @@
 #         jigCEP      Target
 #         recfish         Target
 #         dtrawlFSF   Bycatch
-# BFS     dredgeBFS   Target 
+# BFS     dredgeBFS   Target
 #         recfish         Target
 #         dtrawlFSF   Bycatch
 #         dtrawlFSO   Bycatch
@@ -178,11 +178,11 @@
 # ZG      dtrawlFSF   Bycatch
 #         dtrawlBMS   Bycatch
 #         dtrawlFD    Bycatch
-#  
+#
 ## Parameter list
 # Symbol       Value           Description                                  Units        Default Value
-#                                                                                             
-## Flags and switches       
+#
+## Flags and switches
 
 ### Fisheries flags
 # Period of activity for fisheries
@@ -301,7 +301,7 @@ flagfishPIN      0         1=cull pinnipeds, 0=off                              
 flagfishWHB      0         1=fishing of baleen whales, 0=off                                   0
 flagfishWHT      0         1=fishing of toothed whales, 0=off                                  0
 flagfishZL       0         1=fishing of mesozooplankton, 0=off                                 0
-flagfishZG       0         1=fishing of gelatinous zooplankton, 0=off                          0 
+flagfishZG       0         1=fishing of gelatinous zooplankton, 0=off                          0
 flagfishBFS      1         1=fishing of shallow filter feeders, 0=off                          0
 flagfishBFF      1         1=fishing of other filter feeders, 0=off                            0
 flagfishBG       1         1=fishing of benthic grazers, 0=off                                 0
@@ -310,137 +310,60 @@ flagfishBMD      1         1=fishing of deep macrozoobenthos, 0=off             
 flagfishBML      1         1=fishing of megazoobenthos, 0=off                                  0
 flagfishCEP      1         1=fishing of cephalopods, 0=off                                     0
 flagfishPWN      0         1=fishing of prawns, 0=off                                          0
-flagfishBD       0         
-flagfishMA       0        
+flagfishBD       0
+flagfishMA       0
 
 # Fisheries habitat related - the vectors indicate which habitat patchiness equation
-# to use when applying fishing mortality related mortality.  
+# to use when applying fishing mortality related mortality.
 # 0=standard % overlap, 1=Ellis and Pantus based subgrid scale model
 # Assumes fisheries in order as per your fisheries definition file.
 
 flaghabitat_FPS  33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 flaghabitat_FVS  33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 flaghabitat_FVT  33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 flaghabitat_FDS  33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 flaghabitat_SHD  33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 flaghabitat_SB   33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 flaghabitat_PIN  33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 flaghabitat_WHB  33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 flaghabitat_WHT  33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 flaghabitat_ZL   33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 flaghabitat_ZG   33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 flaghabitat_BFS  33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 flaghabitat_BFF  33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 flaghabitat_BG   33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 flaghabitat_BMS  33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 flaghabitat_BMD  33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 flaghabitat_BML  33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 flaghabitat_CEP  33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 flaghabitat_PWN  33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 flaghabitat_BC   33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 flaghabitat_BD   33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 flaghabitat_MB   33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 flaghabitat_MA   33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 flaghabitat_SG   33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
@@ -483,7 +406,7 @@ mowMA_flagdempelfishery     1                                                   
 # Flag to indicate whether want dynamic (=1) or pseudo (=0) movement if using pseudo assemssments and effortmodel = 8
 dynanyway 0
 
-# Flag indicating effort dynamics model to use. 0=Constant fishing pressure per quarter per cell 
+# Flag indicating effort dynamics model to use. 0=Constant fishing pressure per quarter per cell
 # (evenly distributed across cells), 1=Constant fishing pressure per quarter per cell (adjusted
 # by relative area of the cell), 2=Constant effort with spatial distribution based on location
 # of previous day's cpue, 3=Prescribed spatial effort matrices, 4=Effort based on cpue of previous day,
@@ -629,7 +552,7 @@ netFDE_explore    0                                                             
 midwcPWN_explore  0                                                                        0
 mowMA_explore     0                                                                        0
 
-# Flag indicating whether total effort can drop dynamically (without management) as stocks are depleted. 
+# Flag indicating whether total effort can drop dynamically (without management) as stocks are depleted.
 # 0=No, 1=Yes
 midwcCEP_effortdrop  0                                                                         0
 jigCEP_effortdrop    0                                                                         0
@@ -666,7 +589,7 @@ midwcPWN_effortdrop  0                                                          
 mowMA_effortdrop     0                                                                         0
 
 # Flag indicating what form of selectivity a fishery starts with (this can change through time
-# if the appropriate changeSEL is set to 1 below). 
+# if the appropriate changeSEL is set to 1 below).
 # 0=groups specific constant, 1=cohort specific constant for each group,
 # 2=size based logistic curve, 3=size based normal curve, 4=size based lognormal curve,
 # 5=size based gamma curve, 6=knife edged
@@ -962,8 +885,8 @@ flagescapement_MA   33
 flagescapement_SG   33
 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
 
-# Access identifier - whether a species can be accessed throughout the water column regardless 
-# of respective vertical distributions of fishery and group (1=yes, 0=no) 
+# Access identifier - whether a species can be accessed throughout the water column regardless
+# of respective vertical distributions of fishery and group (1=yes, 0=no)
 flag_access_thru_wc_FPS      1         1=can access small planktivores through the water column, 0=no                          0
 flag_access_thru_wc_FVS      1         1=can access shallow piscivorous fish through the water column, 0=no                    0
 flag_access_thru_wc_FVT      1         1=can access large piscivorous fish through the water column, 0=no                      0
@@ -974,7 +897,7 @@ flag_access_thru_wc_PIN      1         1=can access pinnipeds through the water 
 flag_access_thru_wc_WHB      1         1=can access baleen whales through the water column, 0=no                               0
 flag_access_thru_wc_WHT      1         1=can access toothed whales through the water column, 0=no                              0
 flag_access_thru_wc_ZL       1         1=can access mesozooplankton through the water column, 0=no                             0
-flag_access_thru_wc_ZG       1         1=can access gelatinous zooplankton through the water column, 0=no                      0 
+flag_access_thru_wc_ZG       1         1=can access gelatinous zooplankton through the water column, 0=no                      0
 flag_access_thru_wc_BFS      1         1=can access shallow filter feeders through the water column, 0=no                      0
 flag_access_thru_wc_BFF      1         1=can access other filter feeders through the water column, 0=no                        0
 flag_access_thru_wc_BG       1         1=can access benthic grazers through the water column, 0=no                             0
@@ -993,7 +916,7 @@ flag_access_thru_wc_MA       0         1=can access macroalgae through the water
 # 2 = imposed catch is spatially explicit
 # 3 = imposed catch is spatially explicit but will "steal" from the stock if can't fill local catch
 # 4 = imposed catch is spatially explicit but will from adjacent cells only if cant'y fill local catch time series
-flagimposeglobal    0                  
+flagimposeglobal    0
 
 # Fisheries catch time series used - the vectors indicate which of the 5 options listed above
 # (no imposed catch, global, spatially explicit, stock associated or adjacent cells) is
@@ -1176,7 +1099,7 @@ flagF_FDS  33
 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-flagF_SHD 33                               
+flagF_SHD 33
 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -1257,7 +1180,7 @@ flagF_SG   33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 
-### Management flags 
+### Management flags
 # General fisheries options
 flagfinfish      1         1=finfish fisheries active, 0=off                                   0
 flagincidmort    0         1=fisheries cause incidental mortality (take bycatch), 0=off        0
@@ -1511,7 +1434,7 @@ midwcPWN_flagcap  0                                                             
 mowMA_flagcap     0                                                                         0
 
 # Flag indicating whether the fishery has spatial management. 0=no spatial management, 1=fixed mpas,
-# 2=rotating (or changing) mpas, 3=area closures when stock low (using fixed mpas), 
+# 2=rotating (or changing) mpas, 3=area closures when stock low (using fixed mpas),
 # 4=area closures when endangered groups depleted (using fixed mpas), 5=area closures when
 # stock low and/or when endangered groups depleted (using fixed mpas), 6=area closures when
 # stock low (using changing mpa locations), 7=area closures when endangered groups depleted
@@ -1769,7 +1692,7 @@ mowMA_TACchange     0                                                           
 
 # Flag indicating whether catchabiity of a group to a fishery changes through time. 0=no, 1=yes,
 # Assumes fisheries in order as per your fisheries definition file,
- 
+
 flagQchange_FPS  33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
@@ -1946,7 +1869,7 @@ flagFchange_FDS  33
 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-flagFchange_SHD 33                               
+flagFchange_SHD 33
 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -2162,218 +2085,153 @@ k_mismatch       0.25
 # Identify chief target species for each fishery - when determining effort allocation,
 # the expected CPUE of these species is used to select (or weight) potential fishing sites
 # The list assumes the order of groups as per the functional group definition file.
-target_midwcCEP 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_jigCEP 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_midwcFP 62
-1 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_dredgeBFS 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_netFD 62
-0 0 0 1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_netSH 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_plineFVO 62
-0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_pseineFVO 62
-0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_pseineFP 62
-1 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_trapBMS 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_trapFD 62
-0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_dtrawlBMS 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_dtrawlCEP 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_dtrawlFD 62
-0 1 0 1 1 0 0 0 1 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 1 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_dtrawlFDO 62
-0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_dtrawlFDB 62
-0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_midwcFD 62
-0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_dseineFDB 62
-0 1 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_dlineFD 62
-0 0 0 0 1 0 0 0 0 0 0 0 1 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_dlineFVS 62
-0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_dlineSH 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_diveBG 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_pseineFVS 62
-0 0 0 0 0 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_cullPIN 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_recfish 62
-1 1 1 0 0 1 1 1 1 0 0 1 0 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 0 0 0 0 0 0 1 1 1 0 1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_ptrawlPWN 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_dtrawlFBP 62
-1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_midwcZL 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_trapFDE 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_dlineFDE 62
-0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 1 0 1 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_netFDE 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_midwcPWN 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-target_mowMA 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
+target_midwcCEP 35
+0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_jigCEP 35
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_midwcFP 35
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_dredgeBFS 35
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_netFD 35
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_netSH 35
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_plineFVO 35
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_pseineFVO 35
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_pseineFP 35
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_trapBMS 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_trapFD 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_dtrawlBMS 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_dtrawlCEP 35
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_dtrawlFD 35
+0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_dtrawlFDO 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_dtrawlFDB 35
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_midwcFD 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_dseineFDB 35
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_dlineFD 35
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_dlineFVS 35
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_dlineSH 35
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_diveBG 35
+0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_pseineFVS 35
+0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_cullPIN 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_recfish 35
+1 1 1 1 1 0 0 0 0 1 1 1 1 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_ptrawlPWN 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_dtrawlFBP 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_midwcZL 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_trapFDE 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_dlineFDE 35
+0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_netFDE 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_midwcPWN 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+target_mowMA 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 # General vessel characteristics (specific characteristics are in the economics parameter file )
 Speed_boat       9260      Speed of average fishing vessel                   m.hr-1            9260
 Speed_recboat    9260      Speed of average rec vessel                       m.hr-1            9260
-KDEP_fishery     0.1       Sediment penetration depth of fishing gear        m                 0.1 
+KDEP_fishery     0.1       Sediment penetration depth of fishing gear        m                 0.1
 
 # Fisheries habitat association.
 # Vectors indicating which habitats each fishery can operate in.
 # 1 = in the habitat, 0 = excluded from the habitat
 # The list of habitats are [cover groups flagged in your functional group definition file, reef, flat, soft, canyon]
-habitat_midwcCEP  10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_jigCEP    10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_midwcFP   10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_dredgeBFS 10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_netFD     10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_netSH     10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_plineFVO  10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_pseineFVO 10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_pseineFP  10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_trapBMS   10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_trapFD    10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_dtrawlBMS 10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_dtrawlCEP 10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_dtrawlFD  10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_dtrawlFDO 10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_dtrawlFDB 10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_midwcFD   10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_dseineFDB 10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_dlineFD   10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_dlineFVS  10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_dlineSH   10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_diveBG    10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_pseineFVS 10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_cullPIN   10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_recfish   10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_ptrawlPWN 10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_dtrawlFBP 10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_midwcZL   10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_trapFDE   10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_dlineFDE  10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_netFDE    10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_midwcPWN  10
-1 1 1 1 1 1 1 1 1 1
-
-habitat_mowMA     10
-0 0 0 1 0 0 1 1 1 0
+habitat_midwcCEP  9
+1 1 1 1 1 1 1 1 1
+habitat_jigCEP    9
+1 1 1 1 1 1 1 1 1
+habitat_midwcFP   9
+1 1 1 1 1 1 1 1 1
+habitat_dredgeBFS 9
+1 1 1 1 1 1 1 1 1
+habitat_netFD     9
+1 1 1 1 1 1 1 1 1
+habitat_netSH     9
+1 1 1 1 1 1 1 1 1
+habitat_plineFVO  9
+1 1 1 1 1 1 1 1 1
+habitat_pseineFVO 9
+1 1 1 1 1 1 1 1 1
+habitat_pseineFP  9
+1 1 1 1 1 1 1 1 1
+habitat_trapBMS   9
+1 1 1 1 1 1 1 1 1
+habitat_trapFD    9
+1 1 1 1 1 1 1 1 1
+habitat_dtrawlBMS 9
+1 1 1 1 1 1 1 1 1
+habitat_dtrawlCEP 9
+1 1 1 1 1 1 1 1 1
+habitat_dtrawlFD  9
+1 1 1 1 1 1 1 1 1
+habitat_dtrawlFDO 9
+1 1 1 1 1 1 1 1 1
+habitat_dtrawlFDB 9
+1 1 1 1 1 1 1 1 1
+habitat_midwcFD   9
+1 1 1 1 1 1 1 1 1
+habitat_dseineFDB 9
+1 1 1 1 1 1 1 1 1
+habitat_dlineFD   9
+1 1 1 1 1 1 1 1 1
+habitat_dlineFVS  9
+1 1 1 1 1 1 1 1 1
+habitat_dlineSH   9
+1 1 1 1 1 1 1 1 1
+habitat_diveBG    9
+1 1 1 1 1 1 1 1 1
+habitat_pseineFVS 9
+1 1 1 1 1 1 1 1 1
+habitat_cullPIN   9
+1 1 1 1 1 1 1 1 1
+habitat_recfish   9
+1 1 1 1 1 1 1 1 1
+habitat_ptrawlPWN 9
+1 1 1 1 1 1 1 1 1
+habitat_dtrawlFBP 9
+1 1 1 1 1 1 1 1 1
+habitat_midwcZL   9
+1 1 1 1 1 1 1 1 1
+habitat_trapFDE   9
+1 1 1 1 1 1 1 1 1
+habitat_dlineFDE  9
+1 1 1 1 1 1 1 1 1
+habitat_netFDE    9
+1 1 1 1 1 1 1 1 1
+habitat_midwcPWN  9
+1 1 1 1 1 1 1 1 1
+habitat_mowMA     9
+0 0 0 1 0 0 1 1 1
 
 # Minimum seafloor depths fishery will act over (so if won't fish shallower than 50m put 50 here)
 midwcCEP_mindepth  0
 jigCEP_mindepth    0
-midwcFP_mindepth   0 
+midwcFP_mindepth   0
 dredgeBFS_mindepth 0
 netFD_mindepth     0
 netSH_mindepth     0
@@ -2408,7 +2266,7 @@ mowMA_mindepth     0
 # Maximum seafloor depths fishery will act over (so if won't fish deeper than 1500m put 1500 here)
 midwcCEP_maxdepth  1805
 jigCEP_maxdepth    250
-midwcFP_maxdepth   1805 
+midwcFP_maxdepth   1805
 dredgeBFS_maxdepth 250
 netFD_maxdepth     1805
 netSH_maxdepth     1805
@@ -2830,82 +2688,82 @@ reportscale_ZL             33
 # Catch by age distribution for conditioning time series of catch (if used)
 # Constant discards per cohort per group. Length of each array determined by number of cohorts defined in functional group definition file.
 0 0.07 0.09 0.12 0.12 0.12 0.12 0.12 0.12 0.12
-         
-CatchTS_agedistribFPS 10        
+
+CatchTS_agedistribFPS 10
 0 0 0.1 0.12 0.13 0.13 0.13 0.13 0.13 0.13
-         
+
 0 0.05 0.1 0.13 0.13 0.13 0.13 0.11 0.11 0.11
-         
+
 0 0.081395349 0.104651163 0.11627907 0.11627907 0.11627907 0.11627907 0.11627907 0.11627907 0.11627907
 
 0 0.01 0.115 0.125 0.125 0.125 0.125 0.125 0.125 0.125
-         
-CatchTS_agedistribFVS 10        
+
+CatchTS_agedistribFVS 10
 0 0 0.01 0.11 0.13 0.15 0.15 0.15 0.15 0.15
-         
-CatchTS_agedistribFVT 10        
+
+CatchTS_agedistribFVT 10
 0 0 0.05 0.13 0.13 0.13 0.14 0.14 0.14 0.14
-         
+
 0 0.04 0.08 0.12 0.12 0.12 0.13 0.13 0.13 0.13
-         
+
 0 0 0.02 0.08 0.09 0.09 0.15 0.19 0.19 0.19
 
 0 0 0.1 0.12 0.13 0.13 0.13 0.13 0.13 0.13
-         
+
 0 0 0 0 0 0 0 0 0 0
-         
+
 0 0.01 0.12 0.12 0.12 0.12 0.12 0.13 0.13 0.13
-         
+
 0 0.08 0.09 0.1 0.11 0.12 0.12 0.12 0.13 0.13
-         
-CatchTS_agedistribFDS 10        
+
+CatchTS_agedistribFDS 10
 0 0 0.08 0.1 0.13 0.13 0.14 0.14 0.14 0.14
-         
+
 0 0.06 0.1175 0.1175 0.1175 0.1175 0.1175 0.1175 0.1175 0.1175
-         
+
 0 0 0.07 0.08 0.1 0.12 0.14 0.15 0.17 0.17
-         
+
 0 0.03 0.05 0.1 0.12 0.12 0.14 0.14 0.15 0.15
-         
+
 0 0 0.11 0.12 0.12 0.12 0.12 0.13 0.14 0.14
-         
+
 0 0 0.1 0.12 0.13 0.13 0.13 0.13 0.13 0.13
-         
+
 0 0.05 0.1 0.12 0.12 0.12 0.12 0.12 0.12 0.13
-         
+
 0 0 0 0 0 0 0 0 0 0
-         
-CatchTS_agedistribSHD 10        
+
+CatchTS_agedistribSHD 10
 0.074468085 0.085106383 0.095744681 0.106382979 0.106382979 0.106382979 0.106382979 0.106382979 0.106382979 0.106382979
-         
+
 0 0.05 0.08 0.1 0.12 0.13 0.13 0.13 0.13 0.13
-         
+
 0 0.081395349 0.104651163 0.11627907 0.11627907 0.11627907 0.11627907 0.11627907 0.11627907 0.11627907
-         
+
 0.02 0.05 0.07 0.11 0.11 0.12 0.12 0.13 0.13 0.14
-         
+
 0 0 0 0 0 0 0 0 0 0
-         
+
 0 0.081395349 0.104651163 0.11627907 0.11627907 0.11627907 0.11627907 0.11627907 0.11627907 0.11627907
-         
-CatchTS_agedistribSB 10        
-0 0 0 0 0 0 0 0 0 0
-         
+
+CatchTS_agedistribSB 10
 0 0 0 0 0 0 0 0 0 0
 
 0 0 0 0 0 0 0 0 0 0
 
 0 0 0 0 0 0 0 0 0 0
 
-CatchTS_agedistribPIN 10        
 0 0 0 0 0 0 0 0 0 0
 
-CatchTS_agedistribWHB 10        
+CatchTS_agedistribPIN 10
+0 0 0 0 0 0 0 0 0 0
+
+CatchTS_agedistribWHB 10
 0 0 0 0 0 0 0 0 0 0
 
 0 0 0 0 0 0 0 0 0 0
 
-CatchTS_agedistribWHT 10        
+CatchTS_agedistribWHT 10
 0 0 0 0 0 0 0 0 0 0
 
 CatchTS_agedistribPWN 2
@@ -2919,8 +2777,8 @@ highgrade_thresh 0.1
 
 # Forced fishing mortality rates (per day) - one entry per fishery
 0 0 5.08E-05  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-                                
-mFC_FPS 33                               
+
+mFC_FPS 33
 0 0 3.13804E-05 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -2964,45 +2822,45 @@ mFC_FDS  33
 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-mFC_SHD 33                               
+mFC_SHD 33
 0 0 0 0 0 0.0002931 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-                                
+
 0 0 0 0 0 0.0000174 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-                               
+
 0 0 0 0 0 0.0000273973 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-                                
+
 0 0 0 0 0 6.40848E-07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-                                
+
 0 0 0 0 0 0.0003 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-                                
+
 0 0 0 0 0 0 0 0 0 0 0 0 0 1.82406E-07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-                                
-mFC_SB 33                               
+
+mFC_SB 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-                                
+
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-                                
+
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2.00E-04 0 0 0 0 0 0 0 0 0 0 0
 
 0 0 0 0 0 0 0 0 0 0 0 0.0000546 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-                                
-mFC_PIN 33                               
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-                                
-mFC_WHB 33                               
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-                                
+
+mFC_PIN 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-mFC_WHT 33                               
+mFC_WHB 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-                                
-mFC_ZL 33                               
+
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-                                
-mFC_ZG 33                               
+
+mFC_WHT 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-                                
+
+mFC_ZL 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+mFC_ZG 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
 mFC_BFS  33
 0 0 0 2.13E-06 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
@@ -3034,16 +2892,16 @@ mFC_BC   33
 
 mFC_BD   33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-                                
-mFC_MB 33                               
+
+mFC_MB 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-                                
-mFC_MA 33                               
+
+mFC_MA 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-                                
-mFC_SG 33                               
+
+mFC_SG 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-      
+
 # Forced fishing mortality - age group where it starts - one entry per fishery
 FPS_mFC_startage      33
 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -3091,7 +2949,7 @@ FDS_mFC_startage      33
 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-SHD_mFC_startage      33                               
+SHD_mFC_startage      33
 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -3260,137 +3118,58 @@ DiscardTS_agedistribCEP  2
 
 # Proportional discarding of biomass of a species based on catch of another species (e.g. ratio of
 # kg of FPS discarded for each kg of PWN landed
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-FCcocatchFPS 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-FCcocatchFVS 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-FCcocatchFVT 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-FCcocatchFDS 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-FCcocatchSHD 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-FCcocatchSB 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-FCcocatchPIN 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-FCcocatchWHB 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-FCcocatchWHT 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-FCcocatchZL 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-FCcocatchZG 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-FCcocatchBFS 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-FCcocatchBFF 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-FCcocatchBG 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-FCcocatchBMS 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-FCcocatchBMD 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-FCcocatchBML 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-FCcocatchCEP 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-FCcocatchPWN 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-FCcocatchBC 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-FCcocatchBD 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-FCcocatchMB 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-FCcocatchMA 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-FCcocatchSG 62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FCcocatchFPS 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FCcocatchFVS 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FCcocatchFVT 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FCcocatchFDS 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FCcocatchSHD 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FCcocatchSB 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FCcocatchPIN 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FCcocatchWHB 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FCcocatchWHT 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FCcocatchZL 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FCcocatchZG 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FCcocatchBFS 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FCcocatchBFF 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FCcocatchBG 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FCcocatchBMS 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FCcocatchBMD 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FCcocatchBML 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FCcocatchCEP 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FCcocatchPWN 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FCcocatchBC 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FCcocatchBD 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FCcocatchMB 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FCcocatchMA 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FCcocatchSG 35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 
 # Catchability per group per fishery. Assumes fisheries in order as per your fisheries definition file.
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 q_FPS            33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
 
@@ -3478,7 +3257,7 @@ q_BFS            33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
 
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
- 
+
 q_BFF            33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
 
@@ -3516,8 +3295,8 @@ q_SG             33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
 
 ## Selectivity parameters per fishery per group
-# For the invertebrate functional groups take into account the range of possible sizes of those 
-# animals and adjust the selectivity accordingly (e.g. BFS represents many of shallow filter feeders 
+# For the invertebrate functional groups take into account the range of possible sizes of those
+# animals and adjust the selectivity accordingly (e.g. BFS represents many of shallow filter feeders
 # not just scallops so the selectivity is set below what it would be for scallops alone)
 # Assumes fisheries in order as per your fisheries definition file.
 
@@ -4631,10 +4410,10 @@ Kb_escape_SG     33
 # High grading and market-based discarding parameters
 UpdateMaxSalePrice    0          Whether want to dynamically update maximum sale price as prices change through time (1) or not (0) - if the later than making it a lowest acceptable threshold in effect
 
-# Discarding parameters 
+# Discarding parameters
 prop_within      0.9             Proportion of quota which when exceeded will see fisheries begin high grading
 salethresh       0.1             Proportion of maximum market value below which fishery will begin market-based discarding
- 
+
 midwcCEP_maxsaleprice  7.0                                                                       1
 jigCEP_maxsaleprice    7.0                                                                       1
 midwcFP_maxsaleprice   1.5                                                                       1
@@ -4904,7 +4683,7 @@ FFCDR_MA         33
 FFCDR_SG         33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
 
-# Which version of the age-dependent discarding distribution to use 
+# Which version of the age-dependent discarding distribution to use
 # This assumes order of fisheries as per fisheries definition file.
 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -5286,168 +5065,77 @@ FCthreshli_WHT   33
 # Proportion of the discarded undersize animals that survive discarding
 # There are upto 33 fisheries associated with each group (see Notes at the top
 # of the file regarding which fisheries are linked to which vertebrate groups)
-# for those groups with less than 33 fisheries associated enter 0 for the left over entries. 
-invert_incidmort 1.0
-
+# for those groups with less than 33 fisheries associated enter 0 for the left over entries.
+invert_incidmort 33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
 
 incidmort_FPS     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 incidmort_FVS     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 incidmort_FVT     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 incidmort_FDS     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 incidmort_SHD     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 incidmort_SB      33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 incidmort_PIN     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 incidmort_WHB     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 incidmort_WHT     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
+incidmort_CEP     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
+incidmort_BFS     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
+incidmort_BFF     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
+incidmort_BG     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
+incidmort_BMD     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
+incidmort_BML     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
+incidmort_BMS     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
+incidmort_PWN    33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
+incidmort_ZL     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
+incidmort_BD     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
+incidmort_MA     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
+incidmort_MB     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
+incidmort_SG    33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
+incidmort_BC     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
+incidmort_ZG     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 # Proportion of the undersize that are retained (illegally)
 # Assumes fisheries in order as per your fisheries definition file,
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 k_retain_FPS     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 k_retain_FVS     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 k_retain_FVT     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 k_retain_FDS     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 k_retain_SHD     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 k_retain_SB      33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 k_retain_PIN     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 k_retain_WHB     33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 k_retain_WHT     33
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
 
 # Proportion of catch of that is discarded as waste (guts, skin etc).
@@ -5635,7 +5323,7 @@ gear_conflict_mowMA     33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 ### Effort model parameters
-# Perscribed effort, per quarter                                             d-1          
+# Perscribed effort, per quarter                                             d-1
 mEff_midwcCEP    4
 0.0 0.0 0.0 0.0
 
@@ -5841,7 +5529,7 @@ netFDE_mEff_offset     100.0
 midwcPWN_mEff_offset   100.0
 mowMA_mEff_offset      100.0
 
-# Exploratory fishing effort in dynamic effort model 
+# Exploratory fishing effort in dynamic effort model
 midwcCEP_mEff_testfish   1.0
 jigCEP_mEff_testfish     1.0
 midwcFP_mEff_testfish    1.0
@@ -5983,7 +5671,7 @@ netFDE_mEff_shift     0.0
 midwcPWN_mEff_shift   0.0
 mowMA_mEff_shift      0.0
 
-# Distance scalar for each fishery (this scales impact of travel on effort allocation)        
+# Distance scalar for each fishery (this scales impact of travel on effort allocation)
 midwcCEP_mFCscale     1                                                                         1
 jigCEP_mFCscale       1                                                                         1
 midwcFP_mFCscale      1                                                                         1
@@ -6054,7 +5742,7 @@ midwcPWN_mFCpeak     1.0                                                        
 mowMA_mFCpeak        1.0                                                                       1
 
 # Effort per day for each fishery (so this is effort in days per day)
-midwcCEP_Effort     0.0       
+midwcCEP_Effort     0.0
 jigCEP_Effort       0.0
 midwcFP_Effort      0.0
 dredgeBFS_Effort    0.0
@@ -6133,7 +5821,7 @@ Effort_hdistribnetFD3     11
 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
 Effort_hdistribnetFD4     11
 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
- 
+
 Effort_hdistribnetSH1     11
 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
 Effort_hdistribnetSH2     11
@@ -6142,7 +5830,7 @@ Effort_hdistribnetSH3     11
 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
 Effort_hdistribnetSH4     11
 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
- 
+
 Effort_hdistribplineFVO1  11
 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
 Effort_hdistribplineFVO2  11
@@ -6151,7 +5839,7 @@ Effort_hdistribplineFVO3  11
 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
 Effort_hdistribplineFVO4  11
 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
- 
+
 Effort_hdistribpseineFVO1 11
 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
 Effort_hdistribpseineFVO2 11
@@ -6160,7 +5848,7 @@ Effort_hdistribpseineFVO3 11
 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
 Effort_hdistribpseineFVO4 11
 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
- 
+
 Effort_hdistribpseineFP1  11
 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
 Effort_hdistribpseineFP2  11
@@ -6385,7 +6073,7 @@ Effort_hdistribmowMA3     11
 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
 Effort_hdistribmowMA4     11
 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
- 
+
 # Vertical effort distributions (proportion of effort for the box applied in each water column layer)
 Effort_vdistribmidwcCEP  6
 0.0 0.0 0.0 0.0 0.0 1.0
@@ -6558,7 +6246,7 @@ dlineFDECPUEscale  0.0                                                          
 netFDECPUEscale    0.0                                                                         0
 midwcPWNCPUEscale  0.0                                                                         0
 mowMACPUEscale     0.0                                                                         0
-  
+
 # Effort caps - size in total days at sea allowed for the entire fleet for the year
 # Only need be > 0  if flagcap set = 1
 midwcCEP_cap  0                                                                         0
@@ -6720,11 +6408,11 @@ ports_end   17
 
 # population of each port (numbers as of 1901)
 ports_pop   17
-8202 292623 42103 87330 870505 39067 48590 72204 12674 19992 42527 201042 849964 422050 38658 10591 10591 
+8202 292623 42103 87330 870505 39067 48590 72204 12674 19992 42527 201042 849964 422050 38658 10591 10591
 
 # which market is feed by each port (for economic model)
 ports_markets 17
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 k_proprecfish         0.20    The proportion of the population who fish recreationally          0.20
 
@@ -6756,10 +6444,10 @@ bycatch_lim_ref 0.20 Bycatch limit reference point
 
 # Flag to incidcate which set of reference points to use.
 # Enter a 1 to use targ_ref reference points or 0 to use forage reference points
-whichref 62        
+whichref 62
 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
 
-TAC_multiyr  5                Years of trend before change TAC  
+TAC_multiyr  5                Years of trend before change TAC
 critCPUE  0.05                Threshold CPUE before TAC changes
 TACbound  2.0                 Maximum possible TAC increase through run (relative to starting TACs)
 prop_incTAC 1.2               Proportional jump in TAC (scalar so if 20% jump put 1.2)
@@ -6815,7 +6503,7 @@ tierMA  0
 tierZL  0
 
 ## MSY related management parameters
-# When using MSY based management (tier6 above), then this identifies the lever to use for each group 
+# When using MSY based management (tier6 above), then this identifies the lever to use for each group
 # None 0
 # Effort 1
 # Catch (quota) 2      (Will require meaningful values in the TAC_XX parameter arrays below)
@@ -6862,16 +6550,16 @@ netFDE_use_min_lever    0                                                       
 midwcPWN_use_min_lever  0                                                                         0
 mowMA_use_min_lever     0                                                                         0
 
-## Seasonal fishery parameters 
+## Seasonal fishery parameters
 # Whether seasonal closures in effect for that management region (must be as many entries as there are management regions (minimum = 1)
 # If want seasonal closure used in all regions enter 1 for all regions e.g.
-# RegSesaon  1 
+# RegSesaon  1
 # 1
 
 RegSeason   2
 1 1
 
-## Seasonal fishery parameters 
+## Seasonal fishery parameters
 # Day of the year season opens (note: start of the year is day 0 NOT day 1)
 midwcCEP_seasonopen   0  Day of year midwater trawl for cephalopods begins d               0
 jigCEP_seasonopen     0  Day of year jig for cephalopods begins            d               0
@@ -6948,7 +6636,7 @@ mowMA_seasonclose      364  Day of year kelp mowing fishery ends            d   
 # Individual trip limits (in tonnes) per fishery per group. Assumes fisheries in order as per your fisheries definition file.
 #
 # If no trip limit in place fill with the value 1000000000000.0
- 
+
 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0 1000000000000.0
 
 TripLimit_FPS          33
@@ -7067,7 +6755,7 @@ TripLimit_MA           33
 # Total allowable catch (TAC) per fishery per group. Assumes fisheries in order as per your fisheries definition file.
 #
 # If want unlimited catch (including trip catch set TAC = 1000000000.0
- 
+
 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0 1000000000.0
 
 TAC_FPS          33
@@ -7197,7 +6885,7 @@ trapFD_max_num_sp     5  Number species trap for demersals can exceed quota     
 dtrawlBMS_max_num_sp  5  Number species demersal trawl for macrozooben can exceed quota       5
 dtrawlCEP_max_num_sp  5  Number species demersal trawl for cephalopods can exceed quota       5
 dtrawlFD_max_num_sp   5  Number species demersal trawl for deep demersal can exceed quota     5
-dtrawlFDB_max_num_sp  5  Number species demersal trawl for shalllow demersal can exceed quota 5     
+dtrawlFDB_max_num_sp  5  Number species demersal trawl for shalllow demersal can exceed quota 5
 dtrawlFDO_max_num_sp  5  Number species demersal trawl for demersals can exceed quota         5
 midwcFD_max_num_sp    5  Number species midwater trawl for deep demersal can exceed quota     5
 dseineFDB_max_num_sp  5  Number species danish seine for demersals can exceed quota           5
@@ -7244,7 +6932,7 @@ regionalSPMA    0       Whether macroalgae is regional quota member             
 # period in the vectors below - you must do one set for each management region (currently allows for 3 management
 # regions)
 
-1.0 0.0 0.0 0.0 0.0 0.0 
+1.0 0.0 0.0 0.0 0.0 0.0
 
 BiTAC_Reg1_FPS          6
 1.0 0.0 0.0 0.0 0.0 0.0
@@ -7360,7 +7048,7 @@ BiTAC_Reg1_MA           6
 
 # Bimonthly trip limits for region 2 (see directions above for region 1)
 
-1.0 0.0 0.0 0.0 0.0 0.0 
+1.0 0.0 0.0 0.0 0.0 0.0
 
 BiTAC_Reg2_FPS          6
 1.0 0.0 0.0 0.0 0.0 0.0
@@ -7507,7 +7195,7 @@ trapFDE_landallTAC_sp    0                                                      
 dlineFDE_landallTAC_sp   0                                                                       0
 netFDE_landallTAC_sp     0                                                                       0
 midwcPWN_landallTAC_sp   0                                                                       0
-mowMA_landallTAC_sp      0  
+mowMA_landallTAC_sp      0
 
 manage_reg      0       Whether TACs use stock based regional TAC (0) or management area regional TAC (1)
 
@@ -7515,119 +7203,119 @@ manage_reg      0       Whether TACs use stock based regional TAC (0) or managem
 # the Dan Holland model (the standard regional management model has the management zones mapped to the reproductive
 # stocks of the individual groups and so calculates the distribution directly rather than using this read-in value
 
-1.0 0.0  
+1.0 0.0
 
 RegTAC_FPS           2
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
 RegTAC_FVS           2
-1.0 0.0  
+1.0 0.0
 
 RegTAC_FVT           2
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
 RegTAC_FDS           2
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
 RegTAC_SHD           2
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
 RegTAC_SB           2
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
 RegTAC_PIN           2
-1.0 0.0  
+1.0 0.0
 
 RegTAC_WHT           2
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
 RegTAC_WHB           2
-1.0 0.0  
+1.0 0.0
 
 RegTAC_ZL           2
-1.0 0.0  
+1.0 0.0
 
 RegTAC_BFS           2
-1.0 0.0  
+1.0 0.0
 
-1.0 0.0  
+1.0 0.0
 
 RegTAC_BFF           2
-1.0 0.0  
+1.0 0.0
 
 RegTAC_BG           2
-1.0 0.0  
+1.0 0.0
 
 RegTAC_BMS           2
-1.0 0.0  
+1.0 0.0
 
 RegTAC_BMD           2
-1.0 0.0  
+1.0 0.0
 
 RegTAC_BML           2
-1.0 0.0  
+1.0 0.0
 
 RegTAC_CEP           2
-1.0 0.0  
+1.0 0.0
 
 RegTAC_PWN           2
-1.0 0.0  
+1.0 0.0
 
 RegTAC_BD           2
-1.0 0.0  
+1.0 0.0
 
 RegTAC_MA           2
-1.0 0.0  
+1.0 0.0
 
 # Basket quotas
 basketSPFPS   0       Whether small planktivores is basket quota member                0
@@ -7650,7 +7338,7 @@ basketSPCEP   0       Whether cephalopods is basket quota member                
 basketSPPWN   0       Whether prawns is basket quota member                            0
 basketSPBD    0       Whether deposit feeders is basket quota member                   0
 basketSPMA    0       Whether macroalgae is basket quota member                        0
- 
+
 # Basket quotas
 basket_sizeFPS   0       Number of groups small planktivores with in the quota                1
 basket_sizeFVS   1       Number of groups small piscivores with in the quota                  1
@@ -7673,7 +7361,7 @@ basket_sizePWN   1       Number of groups prawns with in the quota              
 basket_sizeBD    1       Number of groups deposit feeders with in the quota                   1
 basket_sizeMA    1       Number of groups macroalgae with in the quota                        1
 
-# Basket quota membership (entries should be the guild id numbers (see top of file for values) for 
+# Basket quota membership (entries should be the guild id numbers (see top of file for values) for
 # each species in the basket other than the basket_TACFxx group (i.e. in basketTAC_FPS do not
 # put the code for FPS, only the species other than FPS in the basket with FPS). For an entry
 # of "no other species" (i.e. single species quota) put in a single entry with value 45
@@ -7795,9 +7483,9 @@ basketTAC_MA  1
 # Maximum number of companions in a companion TAC
 max_co_sp  2
 
-# Identity of companions in companion TAC - for all entries must have as many entries as 
-# for max_co_sp. If there are not enough (or any) companions then for all extra entries 
-# enter companion as 45 (Not_fished_id). For those WITH companions 
+# Identity of companions in companion TAC - for all entries must have as many entries as
+# for max_co_sp. If there are not enough (or any) companions then for all extra entries
+# enter companion as 45 (Not_fished_id). For those WITH companions
 # entries to the ID numbers of the companion then enter 45 to fill up the rest of the array
 # co_sp_FXX    2
 # 2 4
@@ -8130,35 +7818,18 @@ co_sp_catch2_SHD  33
 
 co_sp_catch2_SB   33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 co_sp_catch2_PIN  33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 co_sp_catch2_WHB  33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 co_sp_catch2_WHT  33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 co_sp_catch2_ZL   33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 co_sp_catch2_ZG   33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 co_sp_catch2_BFS  33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 co_sp_catch2_BFF  33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
@@ -8199,129 +7870,55 @@ co_sp_catch2_SG   33
 # of the group for that fishery per seven day period (if there are shorter trips in reality,
 # sum over these trips to get 7 days duration and use the sum as the limit here).
 # Individual trip limits (in tonnes) per fishery per group. Assumes fisheries in order as per your fisheries definition file.
- 
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 prop_spawn_close_FPS          33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 prop_spawn_close_FVS          33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 prop_spawn_close_FVT          33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 prop_spawn_close_FDS          33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 prop_spawn_close_SHD          33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 prop_spawn_close_SB           33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 prop_spawn_close_PIN          33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 prop_spawn_close_WHT          33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 prop_spawn_close_WHB          33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 prop_spawn_close_ZL           33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 prop_spawn_close_BFS          33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 prop_spawn_close_BFF          33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 prop_spawn_close_BG           33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 prop_spawn_close_BMS          33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 prop_spawn_close_BMD          33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 prop_spawn_close_BML          33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 prop_spawn_close_CEP          33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 prop_spawn_close_PWN          33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 prop_spawn_close_BD           33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
 prop_spawn_close_MA           33
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
 
 # Identification of groups of concern - those groups regarded as threatened. If the stock of these
-# groups falls too low then fisheries may be closed. A 1=threatened, 0=ignore. 
-# The order of the groups is set based on the functional group definition 
-# 
-SP_Concern       62
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+# groups falls too low then fisheries may be closed. A 1=threatened, 0=ignore.
+# The order of the groups is set based on the functional group definition
+#
+SP_Concern	35
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-## Spatial management 
+##  Spatial management
 # Infringement (as proportion of uncontrolled effort)
 midwcCEP_infringe   0.0  Level of infringement for midwater trawl for cephalopods             0.0
 jigCEP_infringe     0.0  Level of infringement for jig for cephalopods                        0.0
@@ -8635,8 +8232,8 @@ MPAoverfishedMA     11
 0.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
 MPAoverfishedSG     11
 0.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-## Rule based stock management. Population thresholds when populations fall below threshold values 
-# Proportion of the population when effort restricted in each fishery. 
+## Rule based stock management. Population thresholds when populations fall below threshold values
+# Proportion of the population when effort restricted in each fishery.
 # Assumes fisheries in order as per your fisheries definition file,
 
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
@@ -8897,9 +8494,9 @@ FC_high_thresh_SG     33
 # Day virgin stocks calculated (reference point for stock declines). Normally first timestep of
 # run, but can be set later if populations equilibrate at levels substantially different to initial
 # conditions
-reinit_pop_day         0    
+reinit_pop_day         0
 
-## Effort reduction parameters 
+## Effort reduction parameters
 # The following restrictions are applied once target or non-threatened stocks full to threshold
 # levels defined by FC_thresh
 midwcCEP_FC_restrict   0.1  Proportion of effort allowed once restrictions begin              0.1
@@ -9313,7 +8910,7 @@ EffortChange_period_mowMA     1
 1
 
 # Arrays to indicate proportional change in effort (relative to base mEff entered above)
-# for each change in effort. There must be as many entries in this array as there are number 
+# for each change in effort. There must be as many entries in this array as there are number
 # of changes in effort for that fishery.
 Effort_mult_midwcCEP  1
 1.0
@@ -9416,7 +9013,7 @@ Effort_mult_mowMA     1
 
 # Arrays to indicate whether each change in fishing is a simple pulse or not.
 # 1=return to original levels of fishing on FP, 0=remain changed
-# There must be as many entries in this array as there are number 
+# There must be as many entries in this array as there are number
 # of changes in effort for that fishery.
 flagpulsemidwcCEP  1
 0
@@ -9553,7 +9150,7 @@ midwcPWN_cap_changes   1    number of changes in effort cap                     
 mowMA_cap_changes      1    number of changes in effort cap                             1
 
 # Arrays to indicate when each change in effort cap begins (days from run start).
-# There must be as many entries in this array as there are number of changes in effort cap 
+# There must be as many entries in this array as there are number of changes in effort cap
 # for that fishery.
 CAPchange_start_midwcCEP  1
 0
@@ -9757,7 +9354,7 @@ CAPchange_period_mowMA     1
 1
 
 # Arrays to indicate proportional change in effort cap.
-# There must be as many entries in this array as there are 
+# There must be as many entries in this array as there are
 # number of changes in fisheries coverage for that fishery.
 CAPchange_mult_midwcCEP  1
 1.0
@@ -10062,7 +9659,7 @@ midwcPWN_sel_changes   1    number of changes in selectivity                    
 mowMA_sel_changes      1    number of changes in selectivity                                  1
 
 # Arrays to indicate when each change in selectivity begins (days from run start).
-# There must be as many entries in this array as there are number 
+# There must be as many entries in this array as there are number
 # of changes in selectivity for that fishery.
 SELchange_start_midwcCEP  1
 0
@@ -10164,8 +9761,8 @@ SELchange_start_mowMA     1
 0
 
 # Arrays to indicate new form of the selectivity for that group.
-# select curve: 0=const, 1=logistic, 2=norm, 3=lognorm, 4=gamma    
-# There must be as many entries in this array as there are number 
+# select curve: 0=const, 1=logistic, 2=norm, 3=lognorm, 4=gamma
+# There must be as many entries in this array as there are number
 # of changes in selectivity for that group.
 SELchange_curve_midwcCEP  1
 0
@@ -10266,9 +9863,9 @@ SELchange_curve_midwcPWN  1
 SELchange_curve_mowMA     1
 0
 
-# Arrays to indicate change in lsm of selectivity curve for each change 
-# in selectivity for the fishery. If a constant selectivity is being used than this parameter 
-# indicates the change in this constant value. There must be as many entries in this 
+# Arrays to indicate change in lsm of selectivity curve for each change
+# in selectivity for the fishery. If a constant selectivity is being used than this parameter
+# indicates the change in this constant value. There must be as many entries in this
 # array as there are number of changes in selectivity for that group.
 SELchange_addlsm_midwcCEP  1
 0
@@ -10369,8 +9966,8 @@ SELchange_addlsm_midwcPWN  1
 SELchange_addlsm_mowMA     1
 0
 
-# Arrays to indicate change in sigma of selectivity curve for each change 
-# in selectivity for the finfish. There must be as many entries in this 
+# Arrays to indicate change in sigma of selectivity curve for each change
+# in selectivity for the finfish. There must be as many entries in this
 # array as there are number of changes in selectivity for that group.
 SELchange_addsigma_midwcCEP  1
 0
@@ -10507,7 +10104,7 @@ midwcPWN_p_changes   1    number of changes in fisheries coverage               
 mowMA_p_changes      1    number of changes in fisheries coverage                             1
 
 # Arrays to indicate when each change in fishing coverage begins (days from run start).
-# There must be as many entries in this array as there are number of changes in fisheries coverage 
+# There must be as many entries in this array as there are number of changes in fisheries coverage
 # for that fishery.
 Pchange_start_midwcCEP  1
 0
@@ -10711,7 +10308,7 @@ Pchange_period_mowMA     1
 1
 
 # Arrays to indicate proportional change in fisheries coverage (relative to base K_cover entered above)
-# for each change in fisheries coverage. There must be as many entries in this array as there are 
+# for each change in fisheries coverage. There must be as many entries in this array as there are
 # number of changes in fisheries coverage for that fishery.
 Pchange_mult_midwcCEP  1
 1.0
@@ -10848,7 +10445,7 @@ midwcPWN_swept_changes   1    number of changes in fishing gear swept area      
 mowMA_swept_changes      1    number of changes in fishing gear swept area                        1
 
 # Arrays to indicate when each change in swept area begins (days from run start).
-# There must be as many entries in this array as there are number of changes in swept area 
+# There must be as many entries in this array as there are number of changes in swept area
 # for that fishery.
 SWEPTchange_start_midwcCEP  1
 0
@@ -11052,7 +10649,7 @@ SWEPTchange_period_mowMA     1
 1
 
 # Arrays to indicate proportional change in swept area (relative to swept_area entered above).
-# There must be as many entries in this array as there are 
+# There must be as many entries in this array as there are
 # number of changes in fisheries coverage for that fishery.
 SWEPTchange_mult_midwcCEP  1
 1.0
@@ -11412,9 +11009,9 @@ DISCRDchange_start_MA  1
 DISCRDchange_start_SG  1
 0
 
-# Arrays to indicate new minimum legal size limit for finfish. 
+# Arrays to indicate new minimum legal size limit for finfish.
 # Its a multiplcation factor relative to the original minimum size.
-# There must be as many entries in this array as the MAXIMUM number 
+# There must be as many entries in this array as the MAXIMUM number
 # of changes in discarding for any group.
 1.0
 
@@ -11542,9 +11139,9 @@ DISCRDchange_threshmult_MA  1
 DISCRDchange_threshmult_SG  1
 1.0
 
-# Arrays to indicate new proportion of undersize fish retained. 
+# Arrays to indicate new proportion of undersize fish retained.
 # Its a multiplcation factor relative to the original proportion retained.
-# There must be as many entries in this array as the MAXIMUM number 
+# There must be as many entries in this array as the MAXIMUM number
 # of changes in discarding for any group.
 1.0
 
@@ -11673,9 +11270,9 @@ DISCRDchange_retainmult_SG  1
 1.0
 
 # Arrays to indicate new level of discarding for that group.
-# There must be as many entries in this array as the MAXIMUM number 
-# of changes in discarding for any group. It a a multiplcation factor 
-# relative to the original level of discarding (if using constant 
+# There must be as many entries in this array as the MAXIMUM number
+# of changes in discarding for any group. It a a multiplcation factor
+# relative to the original level of discarding (if using constant
 # rates) or wastes (guts/skin) disposed of (if using size based discarding).
 1.0
 
@@ -12319,7 +11916,7 @@ Qchange_period_MA  1
 Qchange_period_SG  1
 0
 
-# Arrays to indicate new level of catchability for that group. It a a multiplcation factor 
+# Arrays to indicate new level of catchability for that group. It a a multiplcation factor
 # relative to the original level of catchability. There must be as many entries in this
 # array as the MAXIMUM number of changes in catchability across all groups.
 0
@@ -12497,7 +12094,7 @@ FDS_mFC_changes  33
 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-SHD_mFC_changes 33                               
+SHD_mFC_changes 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -12836,7 +12433,7 @@ mFCchange_period_MA  1
 mFCchange_period_SG  1
 0
 
-# Arrays to indicate new level of fishing mortality for that group. It a a multiplcation factor 
+# Arrays to indicate new level of fishing mortality for that group. It a a multiplcation factor
 # relative to the original level of fishing mortality. There must be as many entries in this
 # array as the MAXIMUM number of changes in fishing mortality for each group.
 0
@@ -12856,7 +12453,7 @@ mFCchange_mult_FVS 1
 mFCchange_mult_FVT 1
 0
 
-0 
+0
 
 0
 
@@ -12968,131 +12565,131 @@ mFCchange_mult_SG  1
 # Changes in catchability through time - number of changes of catchability
 # Assumes fisheries in order as per your fisheries definition file,
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 FPS_TAC_changes 33
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 FVS_TAC_changes 33
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 FVT_TAC_changes 33
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 FDS_TAC_changes 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 SHD_TAC_changes 33
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 SB_TAC_changes  33
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 PIN_TAC_changes 33
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 WHB_TAC_changes 33
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 WHT_TAC_changes 33
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 ZL_TAC_changes  33
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 ZG_TAC_changes  33
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 BFS_TAC_changes 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 BFF_TAC_changes 33
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 BG_TAC_changes  33
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 BMS_TAC_changes 33
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 BMD_TAC_changes 33
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 BML_TAC_changes 33
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 CEP_TAC_changes 33
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 PWN_TAC_changes 33
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 BC_TAC_changes  33
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 BD_TAC_changes  33
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 MB_TAC_changes  33
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 MA_TAC_changes  33
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 SG_TAC_changes  33
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 # Arrays to indicate when each change in catchability begins (days from run start).
 # There must be as many entries in this array as the MAXIMUM number of changes in catchability
@@ -13353,7 +12950,7 @@ TACchange_period_MA  1
 TACchange_period_SG  1
 1
 
-# Arrays to indicate new level of catchability for that group. It a a multiplcation factor 
+# Arrays to indicate new level of catchability for that group. It a a multiplcation factor
 # relative to the original level of catchability. There must be as many entries in this
 # array as the MAXIMUM number of changes in catchability across all groups.
 1
@@ -13484,9 +13081,9 @@ TACchange_mult_SG  1
 
 ## Performance measures coefficients
 enforce_coefft  1.0    Coefficient for  management enforcement performance measure
-habcoefft       1.0    Coefficient for habitat impacts performance measure 
-tepcoefft       1.0    Coefficient for interactions with TEP groups performance measure 
-sharkcoefft     1.0    Coefficient for interactions with shark groups performance measure 
+habcoefft       1.0    Coefficient for habitat impacts performance measure
+tepcoefft       1.0    Coefficient for interactions with TEP groups performance measure
+sharkcoefft     1.0    Coefficient for interactions with shark groups performance measure
 
 ## Effort panalties applied for fishing in different locations - Chris Wilcox idea to steer people to desired locaiton when using effort caps and ITE
 EffortPenaltymidwcCEP    11
@@ -13558,7 +13155,7 @@ EffortPenaltymowMA    11
 
 
 flag_sel_with_mFC 0
-bulkTAC 0 
+bulkTAC 0
 # Multi year TAC setting - put in the number of years between TAC reassessments
 tac_resetperiodFPS      1
 tac_resetperiodFVS      1
@@ -13585,7 +13182,7 @@ useRBCTiers	0
 
 # Whether want CPUE per shot generated for a fishery - and if yes which fisheries
 flagStoreShotCPUE    0           Flag indicating whether or not shot level CPUE data to be generated and stored: 1=store shot level CPUE, 0=off
-flagStoreCPUE    0 
+flagStoreCPUE    0
 
 #Flag indicating whether or not fish are discarded (0) after when catch > TAC or if they stop fishing (1)
 flag_stop_F_tac 1  #fishing mortality set to zero
@@ -13594,163 +13191,42 @@ flag_useOldMFC 1
 
 
 #qStock values. Added by Bec Gorton 28th May 2015.
-1.0 1.0 1.0 1.0
-
-qSTOCK_FPS       4
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-qSTOCK_FVS       4
-1.0 1.0 1.0 1.0
-
-qSTOCK_FVT       4
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-qSTOCK_FDS       4
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-qSTOCK_SHD       4
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-qSTOCK_SB        4
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-qSTOCK_PIN       4
-1.0 1.0 1.0 1.0
-
-qSTOCK_WHB       4
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-qSTOCK_WHT       4
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-qSTOCK_jFPS       4
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-qSTOCK_jFVS       4
-1.0 1.0 1.0 1.0
-
-qSTOCK_jFVT       4
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-qSTOCK_jFDS       4
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-qSTOCK_jSHD       4
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-qSTOCK_jSB        4
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-qSTOCK_jPIN       4
-1.0 1.0 1.0 1.0
-
-qSTOCK_jWHB       4
-1.0 1.0 1.0 1.0
-
-1.0 1.0 1.0 1.0
-
-qSTOCK_jWHT       4
-1.0 1.0 1.0 1.0
+qSTOCK_FPS 1
+1.0
+qSTOCK_FVS 1
+1.0
+qSTOCK_FVT 1
+1.0
+qSTOCK_FDS 1
+1.0
+qSTOCK_SHD 1
+1.0
+qSTOCK_SB  1
+1.0
+qSTOCK_PIN 1
+1.0
+qSTOCK_WHB 1
+1.0
+qSTOCK_WHT 1
+1.0
+qSTOCK_jFPS 1
+1.0
+qSTOCK_jFVS 1
+1.0
+qSTOCK_jFVT 1
+1.0
+qSTOCK_jFDS 1
+1.0
+qSTOCK_jSHD 1
+1.0
+qSTOCK_jSB  1
+1.0
+qSTOCK_jPIN 1
+1.0
+qSTOCK_jWHB 1
+1.0
+qSTOCK_jWHT 1
+1.0
 
 
 # Measure of spread of bi-modal "nomral" selectivity curve
