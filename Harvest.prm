@@ -6456,6 +6456,24 @@ RBCalpha  1.0                 Coefficient for RBC calculations
 TAC_crit_change 100           Magnitude of TAC shift before actually implemented (t) - so don;t get caught up shifting it 10kg
 pseudo_RBCcheck 0.8
 
+# error type applied (per species) to "perfect knowledge biomass estimate" for broken stick management (if not using formal assessment code)
+# uniform_err = 0
+# normal_err = 1
+# lognorm_err = 2
+#
+estError  62
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+# error variance applied (per species) to "perfect knowledge biomass estimate" for broken stick management (if not using formal assessment code)
+# as proportion of the true value
+estCV  62
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+# bias applied (per species) to "perfect knowledge biomass estimate" for broken stick management (if not using formal assessment code)
+# as proportion of the true value
+estBias  62
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
 # Virgin biomasses for use with pseudo assessment (typically dynamically calculated in model instead)
 estBo    62
 84508.55598 21371.49346 449748.8233 129300.9404 24223.52569 495468.5015 34772.48202 61074.80556 31608.10326 502823.2194 241304.5937 48181.61781 182804.8372 102083.2197 1614996.062 29572.35368 4896.678832 37653.28414 22223.32882 207947.3803 11010.53996 12762.31358 240580.6972 19297.17245 374988.8499 37336.26258 145637.2127 1441.272243 25002.74207 7955.766383 1510.876047 16999.99348 6467.778561 4253.003871 6474.909556 1000000.0 1000000.0 1000000.0 1000000.0 1000000.0 1000000.0 1000000.0 1000000.0 1000000.0 1000000.0 1000000.0 1000000.0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -6464,13 +6482,9 @@ estBo    62
 Fref     62
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-
-
 #Fishing rate (F) that equates with BrefA (i.e.F to apply if B > Bref)
 Fref     62
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
 
 Frestart_scalar 62
 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
