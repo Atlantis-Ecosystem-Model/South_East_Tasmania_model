@@ -3,7 +3,7 @@ verbose      0 	# Detailed logged output
 
 flagecon_on        0   # Flag showing whether want economics loaded and submodel run (1) or not (0)
 flag_fisheries_on  0  # Flag showing whether want fisheries loaded and submodel run (1) or not (0)
-flag_skip_biol     1   # Flag showing whether want biological model run: 1 turns of Ecology, so only used when debugging fisheries)
+flag_skip_biol     0   # Flag showing whether want biological model run: 1 turns of Ecology, so only used when debugging fisheries)
 flag_skip_phys     0   # Flag showing whether want Physics model run: 1 turns of Physics, so only used when debugging fisheries)
 
 debug_it      0
