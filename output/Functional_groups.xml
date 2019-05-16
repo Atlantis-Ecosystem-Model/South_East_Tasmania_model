@@ -55,6 +55,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -83,6 +84,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -111,6 +113,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -139,6 +142,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -167,6 +171,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -195,6 +200,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -223,6 +229,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -251,6 +258,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -279,6 +287,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -307,6 +316,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -335,6 +345,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -363,6 +374,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -391,6 +403,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -419,6 +432,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -447,6 +461,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -475,6 +490,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -503,6 +519,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -531,6 +548,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -559,6 +577,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -587,6 +606,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -615,6 +635,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -643,6 +664,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -671,6 +693,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -699,6 +722,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -727,6 +751,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -755,6 +780,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -783,6 +809,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -811,6 +838,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -839,6 +867,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -867,6 +896,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -895,6 +925,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -923,6 +954,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -951,6 +983,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -979,6 +1012,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
   <AttributeSubGroup AttributeGroupName="FunctionalGroup" AttributeDescription="The defintion of a functional group">
@@ -1007,6 +1041,7 @@
     <Attribute AttributeName="isCultured" AttributeValue="0"/>
     <Attribute AttributeName="isHabDepend" AttributeValue="0"/>
     <Attribute AttributeName="numMoveEntries" AttributeValue="4"/>
+    <Attribute AttributeName="isBioEroder" AttributeValue="0"/>
     <Attribute AttributeName="isSupplemented" AttributeValue="0"/>
   </AttributeSubGroup>
 </AttributeGroup>

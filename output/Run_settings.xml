@@ -2,7 +2,7 @@
 <AttributeGroup AttributeGroupName="AtlantisRunParameters">
   <AttributeSubGroup AttributeGroupName="SubModelSetup" AttributeDescription="Determine which sub-models are active">
     <Attribute AttributeName="flagecon_on" AttributeDescription="Flag showing whether want economics loaded and submodel run (1) or not (0)" AttributeValue="0" AttributeType="Boolean" AttributeRecommendedValue="1"/>
-    <Attribute AttributeName="flag_fisheries_on" AttributeDescription="Flag showing whether want fisheries loaded and submodel run (1) or not (0)" AttributeValue="1" AttributeType="Boolean" AttributeRecommendedValue="1"/>
+    <Attribute AttributeName="flag_fisheries_on" AttributeDescription="Flag showing whether want fisheries loaded and submodel run (1) or not (0)" AttributeValue="0" AttributeType="Boolean" AttributeRecommendedValue="1"/>
     <Attribute AttributeName="flag_skip_biol" AttributeDescription="Flag showing whether want biological model run (1) or not (0 - only used when debugging fisheries)" AttributeValue="0" AttributeType="Boolean" AttributeRecommendedValue="0"/>
     <Attribute AttributeName="flag_skip_phys" AttributeDescription="Flag showing whether want physics loaded and submodel run (1) or not (0). Should only be used for debugging." AttributeValue="0" AttributeType="Boolean" AttributeRecommendedValue="1"/>
     <Attribute AttributeName="check_dups" AttributeDescription="Turn on to check for duplicates in prm files. Turning on will significantly slow down prm file read in - only use from time to time." AttributeValue="0" AttributeType="Boolean" AttributeRecommendedValue="1"/>
