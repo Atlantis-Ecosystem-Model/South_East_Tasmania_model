@@ -29,14 +29,15 @@ Most of these warning messages just inform users about the spatial position of t
 and other model aspects and can be ignored for now.
 
 When all input files are loaded and checked and the actual simulations start Atlantis will start producing daily output like this:
-
+```sh
 t = 0.5, hd.t = 1.75, TofY: 0, % Done: 0.136986
 t = 1, hd.t = 2.25, TofY: 1, % Done: 0.273973
 t = 1.5, hd.t = 2.75, TofY: 1, % Done: 0.410959
 ...
+```
 
 When simulations end Atlantis will print:
-
+```sh
 t = 364, hd.t = 365.25, TofY: 364, % Done: 99.726027
 t = 364.5, hd.t = 1.153843746e+032, TofY: 364, % Done: 99.863014
 Freeing general box arrays
@@ -55,7 +56,7 @@ Freeing fuel arrays
 Freeing assessment arrays
 Freeing performance measures
 Freeing physiochem property memory
-
+```
 ___
 The example above is only a very brief introduction into running Atlantis. For more details check
 For more details about the model see ([Atlantis instructions](https://github.com/Atlantis-Ecosystem-Model/Atlantis_example_and_instructions))
