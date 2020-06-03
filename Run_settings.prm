@@ -45,10 +45,10 @@ fishout    	1           # Switch to turn fisheries output on = 1, off = 0
 flagreusefile 	2        # Switch to show want to append output file no = 0, yes = 1, replace = 2
 flag_age_output 1
 
-flagpassivetracer 0
-flag_sanity_check 1
-external_populations 0
-flag_multiyr_migs 0
+flagpassivetracer 0     # Flag indicating whether passive tracers of advection need to be active in the model
+flag_sanity_check 1     # Whether the code making sure that overlapping of recruits can't add inappropriately is enabled
+external_populations 0  # FLag indicating whether you want a full population model run for when groups are outside the model domain - 0 = no, 1 = yes
+flag_multiyr_migs 0     # Flag indicating whether multi-year (> 1 yr long) migrations need to be included
 
 # Parameters defining the numbers of certain types of groups (needed to  parameter arrays in the
 # initialisation section of the model, best left untouched for now)
@@ -94,3 +94,6 @@ external_box 0
 flagAllowLand 0
 flag_old_embryo_init 1  #This flag is to allow legacy models to have the same starting conditions under the new code as they did in older version
 flag_replicate_old_calendar 1 #This flag specifically allows for legacy models and the influence of environment on the distribution of recruits to be replicated in the newer code
+flag_use_deltaH 0
+store_aggregate_yoy 0
+store_mig_array 0
