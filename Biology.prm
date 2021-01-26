@@ -4640,6 +4640,19 @@ CEP_Recruit_Time 30         Length of gestation period for cephalopods        d 
 
 PWN_Recruit_Time 30         Length of gestation period for prawns        d                0 - 30   (At present use 30 so instantaneous like in old code)
 
+# Entry value for cohort where recruits turn up - in almost all instances this should be zero, except where there is a complicated life history like salmon
+FPS_cohort_recruit_entry  0
+FVS_cohort_recruit_entry  0
+FVT_cohort_recruit_entry  0
+FDS_cohort_recruit_entry  0
+SHD_cohort_recruit_entry  0
+SB_cohort_recruit_entry   0
+PIN_cohort_recruit_entry  0
+WHB_cohort_recruit_entry  0
+WHT_cohort_recruit_entry  0
+CEP_cohort_recruit_entry  0
+PWN_cohort_recruit_entry  0
+
 # Recruitment window
 Recruit_Period_FPS  30  Length of time recruits arrive over for small planktiv d 15 - 90
 Recruit_Period_FVS  30  Length of time recruits arrive over for shallow pisciv d 15 - 90
