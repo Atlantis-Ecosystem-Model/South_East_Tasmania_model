@@ -6442,6 +6442,8 @@ bycatch_refC 0.25 Bycatch target reference point - tier2
 bycatch_refD 0.25 Bycatch target reference point - tier2
 bycatch_lim_ref 0.20 Bycatch limit reference point
 
+discardTAC 0.0
+
 # Flag to incidcate which set of reference points to use.
 # Enter a 1 to use targ_ref reference points or 0 to use forage reference points
 whichref 62
