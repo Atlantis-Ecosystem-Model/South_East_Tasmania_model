@@ -1,0 +1,4 @@
+﻿GroupCode,StartStage,MigID,StartTofY,EndTofY,Leave_Period,Return_Period,IsAnnualMigration,MinTimeAway,MaxTimeAway,MigrateStockReturn,MigPropSizeInc,MigPropSurvive
+SB,1,0,224,120,3,3,1,0,0,1,0.3,0.9
+WHB,0,0,285,174,14,14,1,0,0,1,0,0.98
+WHB,1,0,285,174,14,14,1,0,0,1,0,0.99

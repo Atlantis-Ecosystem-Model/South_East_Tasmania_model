@@ -14,8 +14,6 @@ hd4.name inputs/forcisets/SETAS_VMPAhydroE.nc
 # BottomStress inputs/stress/stress.nc
 # BottomStress inputs/stress/nxstress.nc
 
-use_VertMixFiles 0  ###*** New parameter 2018
-
 #############################################
 # Point source\sink lists
 npointss 0
@@ -136,8 +134,11 @@ typeMPAts 0
 
 # pH time series data file
 use_phFiles 0
+use_VertMixFiles 0
 
 use_force_tracers 0
+
+use_pollutantfiles 0 
 
 # The number of tracers to search for in the files and the names of those tracers. 
 nforceTracers 1
@@ -155,4 +156,21 @@ Arsenic_rewind 0
 # Frequency of inputs.ts and exports.ts output.
 inputs_tout 43200 seconds
 
+##############################################
+# Movement forcing
+use_move_entries 1
+
+# Number of groups you will be forcing movement for
+nforceMoveGroups 2
+
+MoveGroupCodes 2
+FPS_stage_0
+FPS_stage_1
+
+# List of distribution files - 1 file per "MoveGroupCode" (group_stage)
+FPS_stage_0_File.name inputs/SETAS_VMPA_FPS0_distrib.nc
+FPS_stage_1_File.name inputs/SETAS_VMPA_FPS1_distrib.nc
+
+FPS_stage_0_tstart 0
+FPS_stage_1_tstart 366
 
