@@ -72,6 +72,7 @@ K_num_catchqueue  7    # Length (in days) of list of catches used in running ave
 # Location parameters
 flaghemisphere    0    # Flag for hemisphere model is in (0 = southern; 1 = northern)
 flagIsEstuary     0    # Flag to indicate if the model is estuary. If true a sediment tracer is required in the initial conditions input file. 
+flagIsPolar       0    # Flag indicating polar - so there will be 24 hrs of daylight/night seasonally
 
 # Parameters for rescalingin inital vertebrate densities - only for use in emergencies,
 # should really update the cdf file instead
