@@ -275,6 +275,18 @@ variables:
 		Light:decay = 0. ;
 		Light:partic = 0 ;
 		Light:_FillValue = 0. ;
+	double DayLight(t, b, z) ;
+		DayLight:bmtype = "tracer" ;
+		DayLight:units = "" ;
+		DayLight:long_name = "DayLight intensity on the surface of a cell" ;
+		DayLight:sumtype = 1 ;
+		DayLight:dtype = 0 ;
+		DayLight:inwc = 0 ;
+		DayLight:insed = 0 ;
+		DayLight:dissol = 1 ;
+		DayLight:decay = 0. ;
+		DayLight:partic = 0 ;
+		DayLight:_FillValue = 0. ;
 	double Temp(t, b, z) ;
 		Temp:bmtype = "tracer" ;
 		Temp:units = "degrees Celcius" ;
@@ -6440,6 +6452,19 @@ data:
   _, _, _, _, _, _, 6000 ;
 
  Light =
+  _, _, _, _, _, _, _,
+  _, _, _, _, _, _, _,
+  _, _, _, _, _, _, _,
+  _, _, _, _, _, _, _,
+  _, _, _, _, _, _, _,
+  _, _, _, _, _, _, _,
+  _, _, _, _, _, _, _,
+  _, _, _, _, _, _, _,
+  _, _, _, _, _, _, _,
+  _, _, _, _, _, _, _,
+  _, _, _, _, _, _, _ ;
+
+ DayLight =
   _, _, _, _, _, _, _,
   _, _, _, _, _, _, _,
   _, _, _, _, _, _, _,
